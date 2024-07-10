@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+/* banner-container styles */
+.banner-container{
+    max-width: 1400px 100%;
+    min-height: 700px;
+    margin: 0 auto;
+    background-image: url('assets/Hero-bg.png');
+}
+/* banner-content style */
+.banner-image{
+    margin-top: 20px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.banner-title{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 25px 290px 0px 290px;
+}
+.banner-description{
+    padding: 24px 290px 0px 290px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: #0D1321;
+}
+.banner-btn{
+    margin-top: 30px;
+    width: 200px;
+    height: 55px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* dvelopment section style  */
+.development{
+    border: 5px solid salmon;
+    height: 1300px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.development-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.development-title{
+    font-weight: 600;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #0D1321;
+}
+.heading-description{
+    box-sizing: border-box;
+    width: 800px;
+    height: 50px;
+    opacity: 0.7;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+ }
+    /* frame design */
+    .frame-one{
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+    }
+.frame-one-paragraph{
+    width: 477px;
+    height: 220px;
+    margin-right: 300px;
+}
+.frame-one-description{
+    padding-top: 12px;
+}
+.frame-one-btn{
+    margin-top: 25px;
+}
+.frame-btn{
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
