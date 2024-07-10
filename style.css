@@ -311,3 +311,16 @@ textarea{
    background: rgb(255, 255, 255);
    margin: 0 auto;
 }
+.final{
+   width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.final-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
