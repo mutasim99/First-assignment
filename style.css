@@ -52,10 +52,13 @@ body{
 
 /* dvelopment section style  */
 .development{
-    height: 900px;
+    height: 1100px;
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 70px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 .development-container{
     justify-content: center;
@@ -65,8 +68,8 @@ body{
 
 }
 .development-title{
-    font-weight: 600;
-    line-height: 30px;
+    font-weight: 800;
+    line-height: 32px;
     box-sizing: border-box;
     color: #0D1321;
 }
@@ -145,6 +148,7 @@ body{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    margin-top: 32px;
   }
 /* frame three style */
 .frame-three{
@@ -177,4 +181,44 @@ body{
 }
 .frame-three-img{
     margin-top: 80px;
+}
+
+/* iframe style */
+.iframe{
+    width: 1140px;
+    height: 777px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin: 0 auto;
+}
+.iframe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iframe-content{
+    width: 852px;
+    height: 115px;
+    text-align: center;
+}
+.iframe-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.iframe-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.yt-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 40px;
+
 }
