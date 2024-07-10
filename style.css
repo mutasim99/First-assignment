@@ -80,7 +80,7 @@ body{
     font-size: 16px;
     font-weight: 400;
  }
-    /* frame design */
+    /* frame one design */
     .frame-one{
         margin-top: 48px;
         display: flex;
@@ -103,5 +103,19 @@ body{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-
+}
+/* Frame two design */
+.frame-two{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    justify-items: flex-start;
+    margin-top: 80px;
+    align-items: start;
+}
+.frame-two-paragraph{
+    width: 477px;
+    height: 200px;
+   gap: 40px;
+    
 }
