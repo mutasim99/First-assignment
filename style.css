@@ -231,7 +231,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px 300px;
+    margin: 0 auto;
 }
 .skills-titlte{
     text-align: center;
@@ -268,4 +268,46 @@ body{
 .skill{
     padding: 30px;
     box-shadow: 0px 6px 50px #0D1321;
+}
+
+/* footer styles */
+.footer-row{
+    width: 1140px;
+    height: 314px;
+    border: 5px solid salmon;
+    margin-top: 150px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.footer-heading{
+    color: #FFFFFF;
+}
+.footer-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 64px;
+}
+.footer-description{
+    text-align: center;
+    padding-top: 12px;
+}
+textarea{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+   background: rgb(255, 255, 255);
+   margin: 0 auto;
 }
