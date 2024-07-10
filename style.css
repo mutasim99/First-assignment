@@ -52,8 +52,7 @@ body{
 
 /* dvelopment section style  */
 .development{
-    border: 5px solid salmon;
-    height: 1300px;
+    height: 900px;
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 70px;
@@ -82,7 +81,7 @@ body{
  }
     /* frame one design */
     .frame-one{
-        margin-top: 48px;
+        margin-top: 60px;
         display: flex;
         justify-content: space-between;
     }
@@ -91,8 +90,18 @@ body{
     height: 220px;
     margin-right: 300px;
 }
+.frame-one-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 48px;
+    color: #0D1321;
+}
 .frame-one-description{
     padding-top: 12px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
 }
 .frame-one-btn{
     margin-top: 25px;
@@ -109,13 +118,63 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 40px;
-    justify-items: flex-start;
     margin-top: 80px;
-    align-items: start;
+    margin-left: 0px;
 }
 .frame-two-paragraph{
     width: 477px;
     height: 200px;
    gap: 40px;
-    
+   margin-left: 0px;
+   margin-right: 0px;
+}
+  .frame-two-title{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .frame-two-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: #0D1321;
+    margin-top: 16px;
+  }
+  .frme-btn-two{
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+  }
+/* frame three style */
+.frame-three{
+    display: flex;
+}
+.frame-three-paragraph{
+    width: 477px;
+    height: 220px;
+    margin-right: 300px;
+    margin-top: 80px;
+}
+.frame-three-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.frame-three-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.frame-btn-three{
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+.frame-three-img{
+    margin-top: 80px;
 }
